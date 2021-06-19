@@ -858,6 +858,7 @@ body {
   color: #FFFFFF;
   background-color: #FFBD54;
   border: 2px solid #FFBD54;
+  cursor: pointer;
 }
 
 /* footer */
