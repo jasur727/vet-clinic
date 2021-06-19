@@ -495,8 +495,6 @@ body {
 }
 
 /* down */
-.nasha__down--up {}
-
 .nasha-down {
   background-color: #fff;
   padding: 41px 64px 41px 8px;
@@ -662,13 +660,17 @@ body {
   color: #fff;
 }
 
+.contacts-contant{
+  margin-bottom: 265px;
+}
+
 .contacts-contant__icon {
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
 
-.contacts-contant__heading{
+.contacts-contant__heading {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: bold;
@@ -754,7 +756,7 @@ body {
   width: 640px;
 }
 
-.contacts-contant__span{
+.contacts-contant__span {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: normal;
@@ -765,17 +767,17 @@ body {
 
 /* FORM */
 
-.yandex-map{
+.yandex-map {
   width: 462px;
   height: 652px;
 }
 
-.form__wrapper{
+.form__wrapper {
   width: 375px;
   margin-left: 67px;
 }
 
-.form{
+.form {
   background-image: url("../img/Feedback1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -784,7 +786,7 @@ body {
   display: flex;
 }
 
-.form__wrapper--heading{
+.form__wrapper--heading {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: bold;
@@ -795,7 +797,7 @@ body {
   color: #FFFFFF;
 }
 
-.name__form{
+.name__form {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: normal;
@@ -807,7 +809,7 @@ body {
   color: #949494;
 }
 
-.text__form{
+.text__form {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: normal;
@@ -820,7 +822,7 @@ body {
   margin-top: 14px;
 }
 
-.textarea__form{
+.textarea__form {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: normal;
@@ -837,7 +839,7 @@ body {
 
 }
 
-.form__wrapper--text{
+.form__wrapper--text {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: normal;
@@ -845,11 +847,11 @@ body {
   line-height: 20px;
   margin-bottom: 29px;
   color: #949494;
-  
+
 }
 
-.form__wrapper--link{
-  font-family:' Futura PT';
+.form__wrapper--link {
+  font-family: ' Futura PT';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -863,30 +865,30 @@ body {
 
 /* footer */
 
-.footer{
+.footer {
   background-color: #F3F3F3;
   padding: 61px;
   margin-top: 247px;
 }
 
-.site__footer{
+.site__footer {
   display: flex;
   justify-content: space-between;
 }
 
-.site-footer__left{
+.site-footer__left {
   padding: 0;
   display: flex;
 }
 
-.site-footer__item{
+.site-footer__item {
   list-style: none;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.site-footer__time::before{
+.site-footer__time::before {
   content: '';
   width: 16px;
   height: 16px;
@@ -896,31 +898,31 @@ body {
   left: calc(50% - 6px);
 }
 
-.site-footer__link{
+.site-footer__link {
   text-decoration: none;
   margin-bottom: 16px;
   color: #333333;
   transition: color 0.5s ease;
 }
 
-.site-footer__link:hover{
+.site-footer__link:hover {
   color: #FFBD54;
 }
 
-.site-footer__link:active{
+.site-footer__link:active {
   color: rgba(51, 51, 51, 0.7);
 
 }
 
-.link__active{
+.link__active {
   margin-bottom: 0;
 }
 
-.footer__faq{
+.footer__faq {
   margin-left: 54px;
 }
 
-.date-time{
+.date-time {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 500;
@@ -929,12 +931,12 @@ body {
   color: #333333;
 }
 
-.site-footer__time{
+.site-footer__time {
   display: flex;
   flex-direction: column;
 }
 
-.adress-footer{
+.adress-footer {
   width: 160px;
   font-family: 'Futura PT';
   font-style: normal;
@@ -945,7 +947,7 @@ body {
   position: relative;
 }
 
-.adress-footer::before{
+.adress-footer::before {
   content: '';
   width: 17px;
   height: 16px;
@@ -956,18 +958,18 @@ body {
   top: 5px;
 }
 
-.site-footer__right{
+.site-footer__right {
   padding: 0;
 }
 
-.site-footer__telefon-nomer{
+.site-footer__telefon-nomer {
   list-style: none;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.site-footer__telefon-nomer::before{
+.site-footer__telefon-nomer::before {
   content: '';
   position: absolute;
   width: 16px;
@@ -978,7 +980,7 @@ body {
   top: 3px;
 }
 
-.footer__telefon{
+.footer__telefon {
   text-decoration: none;
   margin-bottom: 4px;
   font-family: 'Futura PT';
@@ -989,21 +991,21 @@ body {
   transition: color 0.5s ease;
 }
 
-.footer__telefon:hover{
+.footer__telefon:hover {
   color: #FFBD54;
 }
 
-.footer__telefon:active{
+.footer__telefon:active {
   color: #FFBD54;
   opacity: 0.6;
 }
 
-.telefon__active{
+.telefon__active {
   margin-bottom: 0;
 }
 
-.example{
-  font-family:'Futura PT';
+.example {
+  font-family: 'Futura PT';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
