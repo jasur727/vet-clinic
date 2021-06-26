@@ -6,49 +6,74 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vet clinic</title>
-  <!-- <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/normalize.css"> -->
-    <link rel="stylesheet" href="./css/styles-main.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- <link rel="stylesheet" href="./css/styles-main.css"> -->
 </head>
 
 <body>
-  <div class="site-header__up">
+  <div class="site-header">
     <div class="container">
-      <div class="site-header">
+      <div class="site-header__adress">
         <address class="header__adress">г. Мариуполь, проспект Победы, 48а</address>
 
-        <ul class="header__telefon-nomer__item">
-          <li class="header__telefon-nomer__icon">
-            <a class="header__telefon-nomer__link link-1" href="tel:(067) 634 -75 - 74">(067) 634 -75 - 74</a>
-            <a class="header__telefon-nomer__link link-2" href="tel:(0637) 57 - 01 - 31">(0637) 57 - 01 - 31</a>
-            <a class="header__telefon-nomer__link link-3" href="tel:(098) 266 - 43 - 89">(098) 266 - 43 - 89</a>
+        <ul class="header__nomer--icon">
+          <li class="header__nomer--item">
+            <a class="header__nomer--link" href="tel:(067)634-75-74">(067) 634 -75 - 74</a>
+          </li>
+
+          <li class="header__nomer--item">
+            <a class="header__nomer--link header__nomer--link2" href="tel:0637-57-01-31">(0637) 57 - 01 - 31</a>
+          </li>
+
+          <li class="header__nomer--item">
+            <a class="header__nomer--link" href="tel:(098)266-43-89">(098) 266 - 43 - 89</a>
           </li>
         </ul>
 
-        <div class="header__date-time">
-          <time class="date-time time2" datetime="18:00T8:00"> <span class="date-time__span">Пн - Пт</span> 8:00 -
-            18:00</time>
+        <div class="date-time">
+          <time datetime="18:00T8:00" class="header__time">
+            <span class="header__date">Пн - Пт</span> 8:00 - 18:00
+          </time>
 
-          <time class="date-time" datetime="14:00T8:00"> <span class="date-time__span">Сб - Вс</span> 8:00 -
-            14:00</time>
+          <time datetime="14:00T8:00" class="header__time header__time2">
+            <span class="header__date">Сб - Вс</span> 8:00 - 14:00
+          </time>
         </div>
       </div>
     </div>
   </div>
 
-
   <div class="site-header__down">
     <div class="container">
       <div class="header__link--item">
-        <img class="site-header-logo" src="./img/site-header-logo.svg" alt="" width="177" height="86">
-        <ul class="header__link--icon">
-          <li class="header__link--links">
-            <a class="links bosh-qism links__active" href="#">Главная</a>
-            <a class="links" href="#">О Клинике</a>
-            <a class="links" href="#">Наши Услуги</a>
-            <a class="links" href="#">Полезные Статьи</a>
-            <a class="links" href="#">FAQ</a>
-            <a class="links contact" href="#">Контакты</a>
+        <a href="#">
+          <img class="site-header-logo" src="./img/site-header-logo.svg" alt="" width="177" height="86">
+        </a>
+
+        <ul class="header__icon">
+          <li class="header__item links__active">
+            <a class="header__link contact" href="#">Главная</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link contact" href="#">О Клинике</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link contact" href="#">Наши Услуги</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link contact" href="#">Полезные Статьи</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link contact" href="#">FAQ</a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link contact" href="#">Контакты</a>
           </li>
         </ul>
 
@@ -279,6 +304,41 @@
       <p class="example">© 2020 example. All Rights Reserved.</p>
     </div>
   </footer>
+
+  <!-- MODEL -->
+  <!-- 
+  <section class="faq js-model">
+    <div class="faq-diolog">
+      <div class="faq__wrapper--left">
+        <h2 class="faq__wrapper--heading">Авторизация:</h2>
+        <ul class="faq__icon">
+  
+          <li class="faq__item">
+            <a class="faq__link" href="#">Войти через Google</a>
+          </li>
+  
+          <li class="faq__item facebook__item">
+            <a class="faq__link facebook" href="#">Войти через Facebook</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="faq__wrapper--right">
+        <h1 class="right__heading">Задать вопрос</h1>
+  
+        <form class="form__right" action="https://echo.htmlacademy.ru" method="POST">
+          <input class="text__form" type="text" name="text" placeholder="Ваше имя" aria-label="Ваше имя" required>
+  
+          <textarea name="textra" class="teaxtrea" id="textra" cols="30" rows="10"
+            placeholder="Опишите Ваш вопрос."></textarea>
+  
+          <button class="form__btn" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/main.js"></script> -->
 </body>
 
 </html>
