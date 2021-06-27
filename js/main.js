@@ -40,3 +40,43 @@ if (elsCloseModel) {
 // Agar modalni yopuvchi tugma bo'lsa
 // U tugmaga click hodisasida
 // Modalni yopish funksiyasini ishga tushirishni buyuradi
+
+
+// ---------------------------------------------
+
+var elsOpenModalButton = document.querySelector('.hero__button');
+var elCloseModalButton = document.querySelector('.exit-button');
+var elModalOpen = document.querySelector('.js-modal');
+
+elsOpenModalButton.addEventListener('click', function () {
+  elModalOpen.classList.add('modal-open')
+});
+
+elCloseModalButton.addEventListener('click', function () {
+  elModalOpen.classList.remove('modal-open')
+})
+
+
+var elsButton = document.querySelectorAll('.middle--button');
+
+var elModalss = document.querySelectorAll('.faq__contant');
+
+elsButton.forEach(function (btns) {
+  btns.addEventListener('click', function () {
+    btns.closest(".faq__contant").classList.toggle("open-model");
+  });
+})
+
+// ----------------------------------------
+
+var elsOpenModalButton2 = document.querySelector('.links__right2');
+var elCloseModalButton2 = document.querySelector('.exit-button2');
+var elModal2 = document.querySelector('.js-modal2');
+
+elsOpenModalButton2.addEventListener('click', function(){
+  elModal2.classList.add('modal-open2')
+});
+
+elCloseModalButton2.addEventListener('click', function(){
+elModal2.classList.remove('modal-open2')
+})
