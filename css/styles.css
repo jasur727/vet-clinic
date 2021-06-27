@@ -470,7 +470,7 @@ body {
   background-image: url('../img/left-btn.svg');
   background-repeat: no-repeat;
   top: 205px;
-  left: calc(50% + 640px);  
+  left: calc(50% + 598px);
   cursor: pointer;
 }
 
