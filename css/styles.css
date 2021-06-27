@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-  max-width: 1275px;
+  max-width: 1340px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -240,8 +240,8 @@ body {
   content: '';
   position: absolute;
   width: 100%;
-  height: 3px;
-  background-color: rgba(147, 228, 72, 0.856);
+  height: 4px;
+  background-color: rgba(205, 228, 72, 0.856);
   background-repeat: no-repeat;
   top: calc(50% + 2px);
   z-index: -1;
@@ -470,7 +470,7 @@ body {
   background-image: url('../img/left-btn.svg');
   background-repeat: no-repeat;
   top: 205px;
-  left: calc(50% + 600px);  
+  left: calc(50% + 640px);  
   cursor: pointer;
 }
 
@@ -674,7 +674,6 @@ body {
   position: relative;
 }
 
-
 .main__middle--up::before {
   content: '';
   position: absolute;
@@ -682,7 +681,7 @@ body {
   height: 481px;
   background-repeat: no-repeat;
   background-image: url("../img/kisspng-dog-grooming-puppy-pet-veterinarian-dogs-5ab3e2fb839b14\ 1.svg");
-  top: -78px;
+  top: -80px;
   left: calc(50% + 15px);
 }
 
@@ -703,18 +702,25 @@ body {
   margin-top: 32px;
 }
 
-.email {
-  padding: 18px 147px 18px 22px;
-  border-radius: 5px;
+/* email */
+
+.email{
+margin-top: 34px;
+}
+
+.email-adress{
+  padding: 18px 147px 14px 22px;
   border: none;
 }
 
-.email-button {
-  padding: 0 52px;
-  margin-left: 21px;
-  background-color: #000;
-  border-radius: 3px;
+.submit-btn{
+  padding: 15px 53px 14px 51px;
+  border: none;
+  background-color: black;
   color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .contacts-contant {
@@ -725,6 +731,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  margin-left: -24px;
 }
 
 .contacts-contant__heading {
@@ -744,7 +751,12 @@ body {
   list-style: none;
   padding: 0;
   width: 305px;
+  margin-left: 24px;
   border: 1px solid #979797;
+}
+
+.site-footer__wrapper2{
+  margin-left: 87px;
 }
 
 .contacts-contant__date {
@@ -928,6 +940,10 @@ body {
   margin-top: 247px;
 }
 
+.header--content{
+  margin-left: -14px;
+}
+
 .site__footer {
   display: flex;
   justify-content: space-between;
@@ -952,7 +968,11 @@ body {
   position: absolute;
   background-image: url("../img/schedule.svg");
   background-repeat: no-repeat;
-  left: calc(50% - 6px);
+  left: calc(50% + 4px);
+}
+
+.header__link2{
+  padding: 12px 0;
 }
 
 .site-footer__link {
@@ -1186,7 +1206,7 @@ body {
 }
 
 .text__form {
-  padding: 15px 0 15px 22px;
+  padding: 15px 140px 15px 22px;
   border: none;
 }
 

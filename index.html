@@ -31,7 +31,7 @@
           </li>
         </ul>
 
-        <div class="date-time">
+        <div class="date-time date-time2">
           <time datetime="18:00T8:00" class="header__time">
             <span class="header__date">Пн - Пт</span> 8:00 - 18:00
           </time>
@@ -89,7 +89,9 @@
       <div class="site-hero__contents">
         <h1 class="site-hero__title">Мы заботимся о <span class="title">ваших питомцах!</span></h1>
         <p class="site-hero__text">
-          Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
+          Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими
+          животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и
+          максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
         </p>
         <a href="#nashi-uslugi" class="site-hero__link">Наши услуги</a>
       </div>
@@ -172,12 +174,12 @@
       <div class="main__middle--up">
         <h2 class="main__middle--heading">Будь в курсе событий</h2>
 
-        <div class="main__middle--form">
+        <div class="email">
           <form action="https://echo.htmlacademy.ru" method="POST">
-            <input class="email" type="email" placeholder="Укажите Ваш email адрес" name="email" aria-label="Email"
-              required>
+          
+            <input class="email-adress" type="email" name="email-adress" placeholder="Укажите Ваш email адрес" minlength="3" required>
+            <button class="submit-btn" type="submit">Подписаться</button>
           </form>
-          <button class="email-button" type="submit">Подписаться</button>
         </div>
       </div>
     </div>
@@ -189,7 +191,8 @@
         <h2 class="contacts-contant__heading">Полезные статьи</h2>
 
         <ul class="contacts-contant__icon">
-          <li class="contacts-contant__section">
+          <li class="contacts-contant__section
+          contacts-contant__section1">
             <img class="contacts-contant__img" src="./img/cat-bg.png" alt="" width="305" height="180">
             <time datetime="2020-08-28" class="contacts-contant__date">28.08.2020</time>
             <div class="contacts-contant__wrapper">
@@ -270,23 +273,39 @@
           <img class="foot__icon" src="./img/logo.svg" alt="" width="158" height="79">
         </a>
 
-        <ul class="site-footer__left">
-          <li class="site-footer__item">
-            <a class="site-footer__link" href="#">Главная</a>
-            <a class="site-footer__link" href="#">О Клинике</a>
-            <a class="site-footer__link link__active" href="#">Наши Услуги</a>
-          </li>
+        <ul class="header__icon header--content">
+          <div class="header__wrapper">
+            <li class="header__item">
+              <a class="header__link contact" href="#">Главная</a>
+            </li>
+  
+            <li class="header__item header__link2">
+              <a class="header__link contact" href="#">О Клинике</a>
+            </li>
+  
+            <li class="header__item">
+              <a class="header__link contact" href="#">Наши Услуги</a>
+            </li>
+          </div>
 
-          <li class="site-footer__item footer__faq">
-            <a class="site-footer__link" href="#">Полезные Статьи</a>
-            <a class="site-footer__link" href="#">FAQ</a>
-            <a class="site-footer__link link__active" href="#">Контакты</a>
-          </li>
+          <div class="header__wrapper2">
+            <li class="header__item">
+              <a class="header__link contact" href="#">Полезные Статьи</a>
+            </li>
+  
+            <li class="header__item header__link2">
+              <a class="header__link contact" href="#">FAQ</a>
+            </li>
+  
+            <li class="header__item">
+              <a class="header__link contact" href="#">Контакты</a>
+            </li>
+          </div>
         </ul>
 
-        <div class="site-footer__time">
-          <time class="date-time" datetime="18:00T8:00"><span class="date-time__span">Пн - Пт</span> 8:00 - 18:00</time>
-          <time class="date-time" datetime="14:00T8:00"><span class="date-time__span">Сб - Вс </span> 8:00 -
+        <div class="site-footer__time site-footer__time2">
+          <time class="date-time__footer" datetime="18:00T8:00"><span class="date-time__span">Пн - Пт</span> 8:00 - 18:00</time>
+          <time class="date-time__footer" datetime="14:00T8:00"><span class="date-time__span">Сб - Вс </span> 8:00 -
             14:00</time>
         </div>
 
